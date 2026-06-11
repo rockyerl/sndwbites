@@ -27,11 +27,11 @@ export default function Navbar({ totalItems, onCartClick }: NavbarProps) {
                     whiteSpace: "nowrap" as const,
                     color: "var(--forest)", fontWeight: 700, fontSize: 11, letterSpacing: 1.5,
                 }}>
-                    {["🦐 REBON UDANG ASLI", "✅ TANPA MSG BERLEBIH", "🚚 GRATIS ONGKIR AREA BANDUNG", "🥜 KACANG PILIHAN PREMIUM", "⭐ RATING 4.9 — 500+ PELANGGAN PUAS", "🌿 100% PRODUK INDONESIA"].map((t, i) => (
+                    {["🦐 REBON UDANG ASLI", "✅ TANPA MSG BERLEBIH", "🥜 KACANG PILIHAN PREMIUM", "⭐ RATING 4.9 — 500+ PELANGGAN PUAS", "🌿 100% PRODUK INDONESIA"].map((t, i) => (
                         <span key={i}>{t}</span>
                     ))}
                     {/* duplicate for seamless loop */}
-                    {["🦐 REBON UDANG ASLI", "✅ TANPA MSG BERLEBIH", "🚚 GRATIS ONGKIR AREA BANDUNG", "🥜 KACANG PILIHAN PREMIUM", "⭐ RATING 4.9 — 500+ PELANGGAN PUAS", "🌿 100% PRODUK INDONESIA"].map((t, i) => (
+                    {["🦐 REBON UDANG ASLI", "✅ TANPA MSG BERLEBIH", "🥜 KACANG PILIHAN PREMIUM", "⭐ RATING 4.9 — 500+ PELANGGAN PUAS", "🌿 100% PRODUK INDONESIA"].map((t, i) => (
                         <span key={`b${i}`}>{t}</span>
                     ))}
                 </div>
